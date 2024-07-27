@@ -10,12 +10,11 @@ EMAIL_SMTP_ADDRESS = 'smtp.gmail.com'
 EMAIL_SMTP_PORT = 587
 EMAIL_ADRRESS_TO = "sooterex@gmail.com"
 
-# etc
-
+#etc
 BACKUP_DESTINATION_BACKUP_FOLDER = r'C:\Users\Lucifer\Desktop\tmp\temp\copy_file\backup_path\\'
 
 BACKUP_SOURCEFOLDERS_TO_BACKUP = [r'C:\Users\Lucifer\Desktop\tmp\temp\copy_file\admin\\',
                   r'C:\Users\Lucifer\Desktop\tmp\temp\copy_file\gate\\',
-                  r'C:\Users\Lucifer\Desktop\tmp\temp\copy_file\db\\']
+                  r'C:\Users\Lucifer\Desktop\tmp\temp\copy_file\software_admin\\']
 
 BACKUP_FOLDER_NAMES_TO_BACKUP = ['admin', 'gate', 'software_admin']
