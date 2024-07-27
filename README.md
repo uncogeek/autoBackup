@@ -1,10 +1,11 @@
 # Automated Backup System
 
 This Python project provides an automated backup solution for files and folders. It performs several actions to ensure your data is safely backed up and easily accessible.
-> [!NOTE]
-> After configure file "constant.py" and run "main.py" these action will occur:
-> Create a folder and rar file contain backed-up directories and files defined 
 
+After configure file "constant.py" and run "main.py" these action will occur:
+Create a folder and rar file contain backed-up directories and files defined to backup, send as attached email and upload to ftp server 
+
+---
 ## Features
 
 - Backs up specified files and folders from a defined directory
@@ -14,11 +15,11 @@ This Python project provides an automated backup solution for files and folders.
 - Uploads the RAR file to an FTP server
 - Uses Jalali (Shamsi) calendar for naming backup folders and RAR files
 - Configurable to use Gregorian calendar for date naming
-
+---
 ## Configuration
 > [!IMPORTANT]
 > change the backup source path, destination of files to backup and where to archive, email settings, and FTP settings in constant.py
-
+---
 ## Usage
 1. Install Requirements
 2. Configure path
@@ -38,11 +39,11 @@ line 2-4 configure your Ftp server account
 ```pytohn
  python main.py
 ```
-
+---
 ## Requirements
 
 (List the required Python libraries and any system dependencies)
-
+---
 ## Planned Features
 
 The following features are planned for future updates:
@@ -51,11 +52,12 @@ The following features are planned for future updates:
 - Password protection for RAR files
 - Upload backups to cloud storage services (Google Drive, Mega, Dropbox, etc.)
 - Code refactoring for improved performance and maintainability
-
+---
 ## Contributing
 
 Contributions to this project are welcome. Please feel free to submit a Pull Request.
 
+---
 ## License
 
 MIT License
