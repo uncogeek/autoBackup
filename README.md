@@ -1,6 +1,9 @@
 # Automated Backup System
 
 This Python project provides an automated backup solution for files and folders. It performs several actions to ensure your data is safely backed up and easily accessible.
+> [!NOTE]
+> After configure file "constant.py" and run "main.py" these action will occur:
+> Create a folder and rar file contain backed-up directories and files defined 
 
 ## Features
 
@@ -13,7 +16,8 @@ This Python project provides an automated backup solution for files and folders.
 - Configurable to use Gregorian calendar for date naming
 
 ## Configuration
-change the backup source path, destination of files to backup and where to archive, email settings, and FTP settings in constant.py
+> [!IMPORTANT]
+> change the backup source path, destination of files to backup and where to archive, email settings, and FTP settings in constant.py
 
 ## Usage
 1. Install Requirements
