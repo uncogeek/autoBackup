@@ -18,10 +18,10 @@ change the backup source path, destination of files to backup and where to archi
 ## Usage
 1. Install Requirements
 2. Configure path
-> constant.py line 14 (BACKUP_DESTINATION_BACKUP_FOLDER)
-> path to copy files into it as an archive folder [where you want make a backup]
-> line 16 BACKUP_SOURCEFOLDERS_TO_BACKUP is a list of paths that you want to make backup of them (can be single path or a list)
-> line 20 BACKUP_FOLDER_NAMES_TO_BACKUP is name of paths (a shortcut of the paths name in line 16)
+ - constant.py line 14 (BACKUP_DESTINATION_BACKUP_FOLDER)
+ - path to copy files into it as an archive folder [where you want make a backup]
+ - line 16 BACKUP_SOURCEFOLDERS_TO_BACKUP is a list of paths that you want to make backup of them (can be single path or a list)
+ - line 20 BACKUP_FOLDER_NAMES_TO_BACKUP is name of paths (a shortcut of the paths name in line 16)
 3. Email setting
 constant.py:
  - line 7 EMAIL_USER is your email account that will send files by
